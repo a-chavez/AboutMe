@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="gravity"
+    tools:context=".ContactActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="550dp"
+        android:alpha="0.05"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_call"
+        app:srcCompat="@drawable/fondosuperior" />
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/apollo"
+        android:padding="10dp"
+        android:paddingTop="5dp"
+        android:text="@string/titulo"
+        android:textColor="@color/colorFondoDark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+       android:background="@drawable/contorno"
+        android:clickable="true"
+        android:drawableStart="@drawable/linkedin_negro"
+        android:focusable="true"
+        android:fontFamily="@font/apollo"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/linkedin"
+        android:textColor="@color/colorFondoDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/contorno"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_contact_mail_24px"
+        android:focusable="true"
+        android:fontFamily="@font/apollo"
+        android:textColor="@color/colorFondoDark"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_linkedin" />
+
+    <TextView
+        android:id="@+id/tv_waza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/contorno"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_icons8_whatsapp"
+        android:focusable="true"
+        android:fontFamily="@font/apollo"
+        android:textColor="@color/colorFondoDark"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/Waza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email" />
+
+    <TextView
+        android:id="@+id/tv_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/contorno"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_call_24px"
+        android:focusable="true"
+        android:fontFamily="@font/apollo"
+        android:textColor="@color/colorFondoDark"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="@string/Call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_waza" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

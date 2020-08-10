@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="presentacion">
+        "Soy un profesional de amplios conocimientos en el área de instrumentación y control industrial,"
+        "que enfoca toda su experiencia en la creación de apliciaciones móviles para la industria."
+        "\n\n"
+    </string>
+    <string name="action_settings">Acerca de...</string>
+
+    <string name="linkedin">LinkedIn</string>
+    <string name="email">Correo</string>
+    <string name="Waza">Whatsapp</string>
+    <string name="Call">Llamar ahora!</string>
+
+    <string name="expe1">Experiencia industrial</string>
+    <string name="expe2">más de 10 años</string>
+    <string name="GUI1">Aplicaciones moviles</string>
+    <string name="GUI2">newbie</string>
+
+    <string name="titulo">Contactame!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
